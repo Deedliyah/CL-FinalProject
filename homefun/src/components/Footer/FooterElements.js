@@ -44,7 +44,7 @@ color: #fff;
 @media screen and (max-width: 420px) {
     margin: 0;
     padding: 10px;
-    width: 100%auto;
+    width: 100%;
 }
 `
 
