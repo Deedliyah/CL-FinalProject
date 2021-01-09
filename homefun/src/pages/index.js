@@ -22,10 +22,10 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <InfoSection {...homeObjOne} />
-            <InfoSection {...homeObjTwo} />
-            <InfoSection {...homeObjThree} />
             <Offer />
-            {/* <ContactForm /> */}
+            {/* <InfoSection {...homeObjTwo} />
+            <InfoSection {...homeObjThree} /> */}
+            <ContactForm />
             <Footer />
         </>
     );

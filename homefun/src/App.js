@@ -3,16 +3,17 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Home from './pages';
 import LoginPage from './pages/login';
-import Navbar from './components/Navbar';
+import LearningApp from './pages/learningapp';
 
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Switch>
         <Route path='/' component={Home} exact />
         <Route path='/login' component={LoginPage} exact />
+        <Route path='/learningapp' component={LearningApp} exact />
+        <Route path='/' component={Home} exact />
       </Switch>
     </Router>
   );

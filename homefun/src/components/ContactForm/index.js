@@ -7,40 +7,40 @@ import { Button } from './../ButtonElements'
 const ContactForm = () => {
     return (
         <>
-            <ContactSection>
-                <ContactH1></ContactH1>
-                <ContactSpan></ContactSpan>
+            <ContactSection id='contact'>
+                <ContactH1>Napisz do nas!</ContactH1>
+                <ContactSpan>Chętnie wysłuchamy Twojej opinii.</ContactSpan>
                 <ContactWrapper>
                     <ContactBadge>
                         <ContactBadgeH2>Dane kontaktowe</ContactBadgeH2>
                         <ContactBadgeP>Lorem lorem i inne głupotki</ContactBadgeP>
                         <ContactBadgeLine>
                             <ContactBadgeIcon />
-                            <ContactBadgeData></ContactBadgeData>
+                            <ContactBadgeData>Zadzwoń!</ContactBadgeData>
                         </ContactBadgeLine>
                         <ContactBadgeLine>
                             <ContactBadgeIcon />
-                            <ContactBadgeData></ContactBadgeData>
+                            <ContactBadgeData>Napisz!</ContactBadgeData>
                         </ContactBadgeLine>
                         <ContactBadgeLine>
                             <ContactBadgeIcon />
-                            <ContactBadgeData></ContactBadgeData>
+                            <ContactBadgeData>Wpadnij!</ContactBadgeData>
                         </ContactBadgeLine>
                     </ContactBadge>
                     <ContactF>
-                        <ContactLabel></ContactLabel>
+                        <ContactLabel>Imię</ContactLabel>
                         <ContactInput></ContactInput>
-                        <ContactLabel></ContactLabel>
+                        <ContactLabel>Nazwisko</ContactLabel>
                         <ContactInput></ContactInput>
-                        <ContactLabel></ContactLabel>
+                        <ContactLabel>Numer telefonu</ContactLabel>
                         <ContactInput></ContactInput>
-                        <ContactLabel></ContactLabel>
+                        <ContactLabel>Mail kontaktowy</ContactLabel>
                         <ContactInput></ContactInput>
                         <ContactMessageWrapper>
                             <ConstactMessageLabel>Wiadomość</ConstactMessageLabel>
                             <ContactMessageInput />
                         </ContactMessageWrapper>
-                        <Button smooth={true} duration={500} spy={true} exact="true" offset={-80} primary={true} dark={false} dark2={false}>Wyślij</Button>
+                        <Button smooth={true} duration={500} spy={true} exact="true" offset={-80}>Wyślij</Button>
                     </ContactF>
                 </ContactWrapper>
             </ContactSection>
