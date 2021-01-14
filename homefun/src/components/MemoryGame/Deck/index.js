@@ -16,7 +16,8 @@ export default function initializeDeck() {
     const cards = KanjiTable.reduce((acc, pair) => {
         acc.push({
             id: id++,
-            pair
+            pair: pair.pair,
+            img: pair.img
         })
         return acc
     }, [])

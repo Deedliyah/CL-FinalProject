@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "question": "What is the capital of Croatia ?",
-      "choices": ["Split", "Osijek", "Zagreb", "Rijeka"],
-      "answer": "Zagreb"
+      "question": "Które kanji, wymagane na egzamin N5, ilustruje ogień",
+      "choices": ["本", "右", "雨", "火"],
+      "answer": "火"
     },
     {
       "question": "What is the capital of Slovenia ?",

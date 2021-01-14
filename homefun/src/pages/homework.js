@@ -23,7 +23,7 @@ export const homework = () => {
 export const newHomework = () => {
     return (
         <PageContainer>
-            <QuizHomework />
+            <MemoryGame />
         </PageContainer>
     )
 }
